@@ -21,6 +21,8 @@ const exclude = [
   '@serverless/sdk',
   'micro-api-client',
   '@middy',
+  'proto-jojo',
+  'serviceful',
   '@middy/core',
   '@middy/error-logger',
   '@middy/http-partial-response',
