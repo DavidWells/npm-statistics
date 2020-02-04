@@ -1,0 +1,30 @@
+{
+  "name": "npm-statistics",
+  "version": "1.0.0",
+  "private": true,
+  "description": "NPM Download Statistics for DavidWells Open Source Projects",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidWells/npm-statistics.git"
+  },
+  "keywords": [],
+  "author": "ClearTax OpenSource <opensource@cleartax.in>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DavidWells/npm-statistics/issues"
+  },
+  "homepage": "https://github.com/DavidWells/npm-statistics#readme",
+  "devDependencies": {
+    "lodash": "^4.17.15",
+    "markdown-magic": "^1.0.0",
+    "markdown-table": "^1.1.3"
+  },
+  "npm-stats": "davidwells",
+  "dependencies": {
+    "npmtotal": "^1.4.0"
+  }
+}
