@@ -10,21 +10,21 @@ NPM Download Statistics for DavidWells Open Source Projects. Updated Daily.
 <!-- AUTO-GENERATED-CONTENT:START (PACKAGES) -->
 | Name                                                                                                     | Downloads   |
 | -------------------------------------------------------------------------------------------------------- | ----------- |
-| [netlify-cli](https://www.npmjs.com/package/netlify-cli)                                                 | 1303765     |
-| [markdown-magic](https://www.npmjs.com/package/markdown-magic)                                           | 688461      |
-| [analytics](https://www.npmjs.com/package/analytics)                                                     | 490105      |
-| [analytics-utils](https://www.npmjs.com/package/analytics-utils)                                         | 475470      |
+| [netlify-cli](https://www.npmjs.com/package/netlify-cli)                                                 | 1300849     |
+| [markdown-magic](https://www.npmjs.com/package/markdown-magic)                                           | 685184      |
+| [analytics](https://www.npmjs.com/package/analytics)                                                     | 489954      |
+| [analytics-utils](https://www.npmjs.com/package/analytics-utils)                                         | 475321      |
 | [@netlify/config](https://www.npmjs.com/package/@netlify/config)                                         | 442693      |
+| [@netlify/build](https://www.npmjs.com/package/@netlify/build)                                           | 435079      |
 | [@analytics/cookie-utils](https://www.npmjs.com/package/@analytics/cookie-utils)                         | 431691      |
-| [@netlify/build](https://www.npmjs.com/package/@netlify/build)                                           | 429074      |
 | [@analytics/storage-utils](https://www.npmjs.com/package/@analytics/storage-utils)                       | 429066      |
-| [configorama](https://www.npmjs.com/package/configorama)                                                 | 410960      |
+| [configorama](https://www.npmjs.com/package/configorama)                                                 | 410958      |
 | [parse-npm-script](https://www.npmjs.com/package/parse-npm-script)                                       | 68508       |
-| [react-autocomplete-cli](https://www.npmjs.com/package/react-autocomplete-cli)                           | 39968       |
-| [analytics-plugin-ga](https://www.npmjs.com/package/analytics-plugin-ga)                                 | 39059       |
-| [cache-me-outside](https://www.npmjs.com/package/cache-me-outside)                                       | 24472       |
+| [react-autocomplete-cli](https://www.npmjs.com/package/react-autocomplete-cli)                           | 39840       |
+| [analytics-plugin-ga](https://www.npmjs.com/package/analytics-plugin-ga)                                 | 38915       |
+| [cache-me-outside](https://www.npmjs.com/package/cache-me-outside)                                       | 24311       |
 | [@analytics/google-analytics](https://www.npmjs.com/package/@analytics/google-analytics)                 | 10062       |
-| [serverless-manifest-plugin](https://www.npmjs.com/package/serverless-manifest-plugin)                   | 8633        |
+| [serverless-manifest-plugin](https://www.npmjs.com/package/serverless-manifest-plugin)                   | 8632        |
 | [analytics-plugin-segment](https://www.npmjs.com/package/analytics-plugin-segment)                       | 3697        |
 | [analytics-plugin-original-source](https://www.npmjs.com/package/analytics-plugin-original-source)       | 3184        |
 | [analytics-plugin-google-tag-manager](https://www.npmjs.com/package/analytics-plugin-google-tag-manager) | 3109        |
@@ -39,8 +39,8 @@ NPM Download Statistics for DavidWells Open Source Projects. Updated Daily.
 | [@analytics/fullstory](https://www.npmjs.com/package/@analytics/fullstory)                               | 930         |
 | [@analytics/customerio](https://www.npmjs.com/package/@analytics/customerio)                             | 793         |
 | [analytics-plugin-do-not-track](https://www.npmjs.com/package/analytics-plugin-do-not-track)             | 791         |
-| [markdown-magic-github-contributors](https://www.npmjs.com/package/markdown-magic-github-contributors)   | 767         |
-| [aws-profile-utils](https://www.npmjs.com/package/aws-profile-utils)                                     | 616         |
+| [markdown-magic-github-contributors](https://www.npmjs.com/package/markdown-magic-github-contributors)   | 764         |
+| [aws-profile-utils](https://www.npmjs.com/package/aws-profile-utils)                                     | 615         |
 | [icon-pipeline](https://www.npmjs.com/package/icon-pipeline)                                             | 497         |
 | [analytics-util-cookie](https://www.npmjs.com/package/analytics-util-cookie)                             | 436         |
 | [analytics-util-storage](https://www.npmjs.com/package/analytics-util-storage)                           | 405         |
@@ -50,19 +50,19 @@ NPM Download Statistics for DavidWells Open Source Projects. Updated Daily.
 | [split-guide-yml](https://www.npmjs.com/package/split-guide-yml)                                         | 305         |
 | [analytics-util-forms](https://www.npmjs.com/package/analytics-util-forms)                               | 289         |
 | [analytics-cli](https://www.npmjs.com/package/analytics-cli)                                             | 270         |
-| [store-it](https://www.npmjs.com/package/store-it)                                                       | 263         |
-| [super-simple-serverless-plugin](https://www.npmjs.com/package/super-simple-serverless-plugin)           | 252         |
+| [store-it](https://www.npmjs.com/package/store-it)                                                       | 261         |
+| [super-simple-serverless-plugin](https://www.npmjs.com/package/super-simple-serverless-plugin)           | 248         |
 | [analytics-plugin-lifecycle-example](https://www.npmjs.com/package/analytics-plugin-lifecycle-example)   | 246         |
 | [json-alexander](https://www.npmjs.com/package/json-alexander)                                           | 221         |
 | [js-library-starter-kit](https://www.npmjs.com/package/js-library-starter-kit)                           | 217         |
 | [analytics-plugin-hubspot](https://www.npmjs.com/package/analytics-plugin-hubspot)                       | 195         |
 | [user-events](https://www.npmjs.com/package/user-events)                                                 | 190         |
-| [aws-profile-cli](https://www.npmjs.com/package/aws-profile-cli)                                         | 179         |
+| [aws-profile-cli](https://www.npmjs.com/package/aws-profile-cli)                                         | 177         |
 | [@analytics/crazy-egg](https://www.npmjs.com/package/@analytics/crazy-egg)                               | 168         |
 | [ui-base](https://www.npmjs.com/package/ui-base)                                                         | 166         |
-| [install-github-dep](https://www.npmjs.com/package/install-github-dep)                                   | 162         |
-| [markdown-magic-wordcount](https://www.npmjs.com/package/markdown-magic-wordcount)                       | 161         |
+| [install-github-dep](https://www.npmjs.com/package/install-github-dep)                                   | 160         |
 | [@middy/sqs-partial-batch-failure](https://www.npmjs.com/package/@middy/sqs-partial-batch-failure)       | 160         |
+| [markdown-magic-wordcount](https://www.npmjs.com/package/markdown-magic-wordcount)                       | 159         |
 | [script-loader-util](https://www.npmjs.com/package/script-loader-util)                                   | 155         |
 | [analytics-plugin-event-validation](https://www.npmjs.com/package/analytics-plugin-event-validation)     | 154         |
 | [style-guard](https://www.npmjs.com/package/style-guard)                                                 | 153         |
@@ -79,7 +79,7 @@ NPM Download Statistics for DavidWells Open Source Projects. Updated Daily.
 | [git-er-done](https://www.npmjs.com/package/git-er-done)                                                 | 96          |
 | [@analytics/simple-analytics](https://www.npmjs.com/package/@analytics/simple-analytics)                 | 81          |
 | [netlify-plugin-debug-cache](https://www.npmjs.com/package/netlify-plugin-debug-cache)                   | 68          |
-| **Sum**                                                                                                  | **5327433** |
+| **Sum**                                                                                                  | **5326493** |
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 ### Wanna use `npm-statistics`?
