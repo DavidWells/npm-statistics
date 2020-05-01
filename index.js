@@ -55,6 +55,9 @@ const exclude = [
   '@netlify/zip-it-and-ship-it',
   'netlify-identity-widget',
   'middy',
+  'netlify-redirect-parser',
+  '@netlify/config',
+  'user-events',
   '@middy/http-urlencode-path-parser',
   '@middy/http-urlencode-body-parser',
   '@middy/do-not-wait-for-empty-event-loop',
@@ -111,7 +114,16 @@ function generateMarkdownTable(tableRows, sum) {
         return o[1]
       }
     ])
-  ).map((d) => {
+  ).filter((d) => {
+    const [name, count] = d
+    if (count === 0) {
+      return false
+    }
+    if (name.match(/^@middy/)) {
+      return false
+    }
+    return true
+  }).map((d) => {
     const [name, count] = d
     return [
       `[${name}](https://www.npmjs.com/package/${name})`,

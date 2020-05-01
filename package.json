@@ -25,6 +25,7 @@
   },
   "npm-stats": "davidwells",
   "dependencies": {
+    "analytics": "^0.3.5",
     "npmtotal": "^1.4.0"
   }
 }
