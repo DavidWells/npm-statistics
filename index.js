@@ -15,6 +15,7 @@ if (!key) {
 
 const exclude = [
   'fung-shway',
+  '@vendia/serverless-express',
   'testing-lerna-usage',
   'testing-lerna-one',
   'testing-lerna-two',
