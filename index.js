@@ -96,9 +96,9 @@ function generateMarkdownTable(tableRows, sum) {
       PACKAGES() {
         return table([
           ['Name', 'Downloads'],
-          ['**Total**', `**${total}**`]
+          ['**Total**', `**${total}**`],
           ...tableRows,
-          ['**Total**', `**${total}**`]
+          ['**Total**', `**${total}**`],
         ])
       }
     }
