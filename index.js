@@ -85,6 +85,10 @@ const exclude = [
   'netlifys_api_definition'
 ]
 
+function numberWithCommas(x) {
+  return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+}
+
 function generateMarkdownTable(tableRows, sum) {
   const config = {
     transforms: {
@@ -92,7 +96,7 @@ function generateMarkdownTable(tableRows, sum) {
         return table([
           ['Name', 'Downloads'],
           ...tableRows,
-          ['**Sum**', `**${sum}**`]
+          ['**Sum**', `**${numberWithCommas(sum)}**`]
         ])
       }
     }
@@ -128,12 +132,12 @@ function generateMarkdownTable(tableRows, sum) {
     const [name, count] = d
     return [
       `[${name}](https://www.npmjs.com/package/${name})`,
-      count
+       count
     ]
   })
   // '@serverless', '@netlify', 'netlify-', '@middy'
 
-  badgeStats.message = `${stats.sum} Downloads`
+  badgeStats.message = `${numberWithCommas(stats.sum)} Downloads`
 
   await fs.writeFileSync('./stats.json', JSON.stringify(badgeStats, null, 2))
 
