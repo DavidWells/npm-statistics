@@ -90,13 +90,15 @@ function numberWithCommas(x) {
 }
 
 function generateMarkdownTable(tableRows, sum) {
+  const total = numberWithCommas(sum)
   const config = {
     transforms: {
       PACKAGES() {
         return table([
           ['Name', 'Downloads'],
+          ['**Total**', `**${total}**`]
           ...tableRows,
-          ['**Sum**', `**${numberWithCommas(sum)}**`]
+          ['**Total**', `**${total}**`]
         ])
       }
     }
