@@ -134,7 +134,7 @@ function generateMarkdownTable(tableRows, sum) {
     const [name, count] = d
     return [
       `[${name}](https://www.npmjs.com/package/${name})`,
-       count
+      numberWithCommas(count)
     ]
   })
   // '@serverless', '@netlify', 'netlify-', '@middy'
