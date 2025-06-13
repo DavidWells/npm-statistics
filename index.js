@@ -3,7 +3,7 @@ const fs = require('fs')
 const _ = require('lodash')
 const table = require('markdown-table')
 const markdownMagic = require('markdown-magic')
-const npmtotal = require('npmtotal')
+const npmTotal = require('npmtotal')
 const pkg = require('./package.json')
 const badgeStats = require('./stats.json')
 
@@ -110,10 +110,22 @@ function generateMarkdownTable(tableRows, sum) {
 }
 
 (async () => {
-  console.log(`Running npmtotal(${key}), This can take some time`)
-  const stats = await npmtotal(key, {
-    exclude: exclude
-  })
+  console.log(`Running npmTotal(${key}), This can take some time`)
+
+  let stats
+  try {
+    stats = await npmTotal(key, {
+      exclude: exclude
+    })
+  } catch (e) {
+    console.error(e)
+    process.exit(1)
+  }
+
+  if (!stats) {
+    console.error('No stats found')
+    process.exit(1)
+  }
 
   const sortedStats = _.reverse(
     _.sortBy(stats.stats, [
