@@ -8,13 +8,11 @@ NPM Download Statistics for DavidWells Open Source Projects. Updated Daily.
 
 <!-- Please do not modify this auto generated content -->
 <!-- AUTO-GENERATED-CONTENT:START (PACKAGES) -->
-| Name                                                 | Downloads                                                                    |
-| ---------------------------------------------------- | ---------------------------------------------------------------------------- |
-| **Total**                                            | **Internal Server Error/api/download-counts02,025-06-18T00:15:09.275+00:00** |
-| [error](https://www.npmjs.com/package/error)         | Internal Server Error                                                        |
-| [timestamp](https://www.npmjs.com/package/timestamp) | 2,025-06-18T00:15:09.275+00:00                                               |
-| [path](https://www.npmjs.com/package/path)           | /api/download-counts                                                         |
-| **Total**                                            | **Internal Server Error/api/download-counts02,025-06-18T00:15:09.275+00:00** |
+| Name                                             | Downloads                                                                                                                                                                                                                              |
+| ------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Total**                                        | **feign.FeignException$ServiceUnavailable: [503 Service Unavailable] during [GET] to [https://registry.npmjs.org/-/v1/search?size=250&text=maintainer%3Adavidwells] [SearchClient#search(String)]: [{"error":"Service Unavailable"}]** |
+| [message](https://www.npmjs.com/package/message) | feign.FeignException$ServiceUnavailable: [503 Service Unavailable] during [GET] to [https://registry.npmjs.org/-/v1/search?size=250&text=maintainer%3Adavidwells] [SearchClient#search(String)]: [{"error":"Service Unavailable"}]     |
+| **Total**                                        | **feign.FeignException$ServiceUnavailable: [503 Service Unavailable] during [GET] to [https://registry.npmjs.org/-/v1/search?size=250&text=maintainer%3Adavidwells] [SearchClient#search(String)]: [{"error":"Service Unavailable"}]** |
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 ### Wanna use `npm-statistics`?
