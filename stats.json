@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "label": "NPM",
-  "message": "feign.FeignException$ServiceUnavailable: [503 Service Unavailable] during [GET] to [https://registry.npmjs.org/-/v1/search?size=250&text=maintainer%3Adavidwells] [SearchClient#search(String)]: [{\"error\":\"Service Unavailable\"}] Downloads",
+  "message": "Internal Server Error/api/download-counts02,025-06-20T00:15:23.860+00:00 Downloads",
   "color": "orange",
   "style": "for-the-badge",
   "namedLogo": "npm"
