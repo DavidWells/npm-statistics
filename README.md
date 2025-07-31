@@ -1,6 +1,6 @@
 # npm-statistics
 
-![NPM Stats](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FDavidWells%2Fnpm-statistics%2Fmaster%2Fstats.json)
+> Repo deprecated. NPM stats API broken
 
 NPM Download Statistics for DavidWells Open Source Projects. Updated Daily.
 
